@@ -4,7 +4,8 @@ How to create multiple account in github
 
 
 ###### Generate the ssh key
- “``` ls -l ~/.ssh/id_*.pub ``` ” show all the file with .pub extension
+ ``` ls -l ~/.ssh/id_*.pub ```
+ ” show all the file with .pub extension
  <br />
  “``` ssh-keygen -t rsa -b 4096 -C "email address" ``` ” generate a new 4096 bits ssh key pair with email address
 this will show this pop up (as we have existing file we need to chage default file)
